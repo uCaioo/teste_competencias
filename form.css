@@ -8,7 +8,7 @@ body {
     height: auto;
     background-color: #FFF;
     position: relative;
-    color: #040406;
+    color: #43AD59;
   }
   
   label {
@@ -23,15 +23,17 @@ body {
   }
   
   .form-container {
-    border: 5px solid #202F58;
+    border: 5px solid #43AD59;
     padding: 20px;
     max-width: 900px;
-    width: 100%;
-    height: auto;
+    width: 120%;
+    height: 2300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Alterado para flex-start */
     background-color: #fff;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
   }
   
   .form-container input,
@@ -42,7 +44,7 @@ body {
   }
   
   #departamento {
-    color: #040406;
+    color: #43AD59;
   }
   
   
@@ -50,7 +52,7 @@ body {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #040406;
+    border: 1px solid #43AD59;
     border-radius: 4px;
     &:focus {
       outline: none;
@@ -60,7 +62,7 @@ body {
   
   #input_7 option {
     font-size: 16px;
-    color: #040406;
+    color: #202F58;
   }
   
   #input_7 option:hover { 
@@ -89,7 +91,7 @@ body {
   }
   
   .competence-label {
-    color: #040406;
+    color: #202F58;
     margin-bottom: 50px;
     font-size: 30px;
     text-align: center;
@@ -128,23 +130,23 @@ body {
     font-family: sans-serif;
     margin: 0px 0px 14px 2px;
     text-align: center;
-    color: #040406;
+    color: #202F58;
   }
   
   #label_8 {
-    color: #040406;
+    color: #202F58;
   }
   
   #label_5 {
-    color: #040406;
+    color: #202F58;
   }
   
   #label_6 {
-    color: #040406;
+    color: #202F58;
   }
   
   #label_7 {
-    color: #040406;
+    color: #202F58;
   }
   
   .buttonsend {
@@ -155,7 +157,7 @@ body {
     width: 200px;
     height: 45px;
     border-radius: 18px;
-    background-color: #040406;
+    background-color: #43AD59;
     border: solid 1px transparent;
     color: #fff;
     font-size: 18px;
@@ -227,7 +229,7 @@ body {
   
   /* Estilo da checkbox quando marcada */
   input[type="checkbox"]:checked {
-    background-color: #2e69ff;
+    background-color: #43AD59;
     border-color: #202F58;
   }
   
@@ -262,13 +264,13 @@ body {
     85% {
       opacity: 1;
       transform: rotate(1080deg);
-      border-color: #040406;
+      border-color: #43AD59;
     }
   
     100% {
       opacity: 1;
       transform: rotate(1080deg);
-      border-color: #040406;
+      border-color: #43AD59;
     }
   }
   
@@ -294,14 +296,14 @@ body {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #040406;
+    color: #202F58;
   }
   
   .form-textbox {
     width: 100%;
     padding: 5px;
     font-size: 14px;
-    border: 1px solid #040406;
+    border: 1px solid #43AD59;
     border-radius: 4px;
   }
   
