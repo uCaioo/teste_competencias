@@ -6,5 +6,5 @@ agreeCheckbox.addEventListener('change', function() {
 });
 
 continueButton.addEventListener('click', function() {
-  window.location.href = 'form.html';
+  window.location.href = "form.html";
 });

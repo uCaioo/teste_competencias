@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("frente_sead.jpeg");
+  background-image: url("./Imagens/frente_sead.jpeg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -49,7 +49,7 @@ body::after {
 
 .wrapper .title {
   height: 90px;
-  background: #43AD59;
+  background: #202F58;
   border-radius: 5px 5px 0 0;
   color: #fff;
   font-size: 30px;
@@ -76,18 +76,18 @@ body::after {
   outline: none;
   padding-left: 60px;
   border-radius: 5px;
-  border: 1px solid lightgrey;
+  border: 3px solid lightgrey;
   font-size: 16px;
   transition: all 0.3s ease;
 }
 
 form .row input:focus {
-  border-color: #43AD59;
-  box-shadow: inset 0px 0px 2px 2px rgba(22, 22, 21, 0.25);
+  border-color: #202F58;
+  border: solid 2px #202F58;
 }
 
 form .row input::placeholder {
-  color: #999;
+  color: #202F58;
 }
 
 .wrapper form .row i {
@@ -96,8 +96,8 @@ form .row input::placeholder {
   height: 100%;
   color: #fff;
   font-size: 18px;
-  background: #43AD59;
-  border: 1px solid #43AD59;
+  background: #202F58;
+  border: 1px solid #202F58;
   border-radius: 5px 0 0 5px;
   display: flex;
   align-items: center;
@@ -109,7 +109,7 @@ form .row input::placeholder {
 }
 
 .wrapper form .pass a {
-  color: #43AD59;
+  color: #202F58;
   font-size: 17px;
   text-decoration: none;
 }
@@ -120,16 +120,19 @@ form .row input::placeholder {
 
 .wrapper form .button input {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   padding-left: 0px;
-  background: #43AD59;
-  border: 1px solid #43AD59;
+  background: #202F58;
+  border: 1px solid #202F58;
   cursor: pointer;
 }
 
 form .button input:hover {
-  background: #202F58;
+  background: #fff;
+  color:#202F58;
+  border: solid 3px #202F58 ;
+  font-size: 22px;
 }
 
 header {
@@ -173,7 +176,7 @@ header::after {
 }
 
 .error-message {
-  color: #FF0000;
+  color: #202F58;
   font-size: 18px;
   margin-top: 10px;
   display: none;
